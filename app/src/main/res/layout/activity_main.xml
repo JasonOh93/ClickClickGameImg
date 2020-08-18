@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:weightSum="10"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg1">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="숫자를 순서대로 누르세요"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/iv_start"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:src="@drawable/start"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:src="@drawable/num01"
+            android:onClick="ivClick"/>
+
+        <ImageView
+            android:id="@+id/iv02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:src="@drawable/num02"
+            android:onClick="ivClick"/>
+
+        <ImageView
+            android:id="@+id/iv03"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:src="@drawable/num03"
+            android:onClick="ivClick"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv04"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:src="@drawable/num04"
+            android:onClick="ivClick"/>
+
+        <ImageView
+            android:id="@+id/iv05"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:src="@drawable/num05"
+            android:onClick="ivClick"/>
+
+        <ImageView
+            android:id="@+id/iv06"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:src="@drawable/num06"
+            android:onClick="ivClick"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv07"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:src="@drawable/num07"
+            android:onClick="ivClick"/>
+
+        <ImageView
+            android:id="@+id/iv08"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:src="@drawable/num08"
+            android:onClick="ivClick"/>
+
+        <ImageView
+            android:id="@+id/iv09"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:src="@drawable/num09"
+            android:onClick="ivClick"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:src="@drawable/num10"
+            android:onClick="ivClick"/>
+
+        <ImageView
+            android:id="@+id/iv11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:src="@drawable/num11"
+            android:onClick="ivClick"/>
+
+        <ImageView
+            android:id="@+id/iv12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:src="@drawable/num12"
+            android:onClick="ivClick"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
